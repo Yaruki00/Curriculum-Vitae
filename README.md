@@ -12,6 +12,7 @@
 |---|-----|
 |iOSアプリ開発|実務3年ほど、マンガアプリ/ゲーム攻略アプリを作りました|
 |APIサーバ開発|実務1年ほど、上記アプリのためのAPIを作りました|
+|バッチ開発|実務1年ほど、上記アプリのためのバッチを作りました|
 
 ## iOSアプリ開発
 
@@ -49,10 +50,19 @@ fastlaneはimport_certificate, sigh, gym, deploygate, slackを使っています
 IB+AutoLayoutでやっています。  
 1Storyboardに1VC、Viewごとに対応するXibを作ります。
 
+## APIサーバ開発
+PHPとCodeIgniterを使っていました。  
+最近はGoと自社フレームワークを使うこともあります。  
+ドキュメント生成にはSwaggerを使っています。  
+インフラについては予め用意された手順に従って作業をするだけなので、知識はあまりありません。  
+さくらクラウド+Nginx+MySQLという組み合わせを使っています。
+
+## バッチ開発
+GoでスクレイピングやTwitter監視を行いました。
+
 ## その他
 
 ### 言語
 多少触ったことがある程度：C, C++, Java, Ruby, JavaScript
 
 ほんのちょっとは触った：Haskell, D, R, Scala, Kotlin
-
