@@ -66,3 +66,9 @@ GoでスクレイピングやTwitter監視を行いました。
 多少触ったことがある程度：C, C++, Java, Ruby, JavaScript
 
 ほんのちょっとは触った：Haskell, D, R, Scala, Kotlin
+
+### 経験のあるツール
+- デザイン : Zeplin, Prott
+- コミュニケーション : Slack, ChatWork
+- ドキュメンテーション : esa, Confluence
+- タスク管理 : Trello, Redmine
