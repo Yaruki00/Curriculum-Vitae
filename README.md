@@ -43,7 +43,7 @@ XCTest, iOSSnapshotTestCase, Cuckooを使ってユニットテストを少し書
 
 ### CI
 travis&fastlaneを使っています。  
-travisはブランチによる条件分けとfastlaneのlaneを叩くくらいです。  
+travisはブランチによる場合分けでfastlaneのlaneを叩くくらいです。  
 fastlaneはimport_certificate, sigh, gym, deploygate, slackを使っています。
 
 ### レイアウト
