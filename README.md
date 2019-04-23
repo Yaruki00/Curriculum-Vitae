@@ -10,14 +10,14 @@
 
 |key|value|
 |---|-----|
-|iOSアプリ開発|実務3年ほど、マンガアプリ/ゲーム攻略アプリを作りました|
+|iOSアプリ開発|実務4年ほど、マンガアプリ/ゲーム攻略アプリを作りました|
 |APIサーバ開発|実務1年ほど、上記アプリのためのAPIを作りました|
 |バッチ開発|実務1年ほど、上記アプリのためのバッチを作りました|
 
 ## iOSアプリ開発
 
 ### 言語
-ほとんどSwiftでやっています。Objective-Cも一応使えます。
+ほとんどSwiftでやっています。始めたときのバージョンは2でした。Objective-Cも一応使えます。
 
 ### アーキテクチャ
 最近はVIPERかClean Architectureをアレンジして使っています。  
@@ -34,7 +34,7 @@ AlamofireとRxSwiftを組み合わせて使っています。
 UserDefaults, KeyChain, Realm, sqliteを使ったことがあります。
 
 ### テスト
-XCTest, iOSSnapshotTestCase, Cuckooを使ってユニットテストを少し書いています。カバレッジで言うと20~30%くらい・・・  
+XCTest, iOSSnapshotTestCase, Cuckoo, MockingJayを使ってユニットテストを少し書いています。カバレッジで言うと20~30%くらい・・・  
 もっと書いたほうがいいかなとも思うし、でも書いてもあまり意味ないかなとも思うし、悩みながらやってます。  
 テストを書くのは主にモデル層と、プレゼンテーションのロジックがある部分です。
 
@@ -42,8 +42,8 @@ XCTest, iOSSnapshotTestCase, Cuckooを使ってユニットテストを少し書
 消費型、非消費型、定期購読の課金実装経験があります。  
 
 ### CI
-travis&fastlaneを使っています。  
-travisはブランチによる場合分けでfastlaneのlaneを叩くくらいです。  
+travis&fastlaneを使っています。Appleアカウントが2段階認証必須になったことで、Bitriseも使い始めました。  
+travis/Bitriseはブランチによる場合分けでfastlaneのlaneを叩くくらいです。  
 fastlaneはimport_certificate, sigh, gym, deploygate, slackを使っています。
 
 ### レイアウト
@@ -63,12 +63,25 @@ GoでスクレイピングやTwitter監視を行いました。
 ## その他
 
 ### 言語
-多少触ったことがある程度：C, C++, Java, Ruby, JavaScript
+多少触ったことがある程度：C, C++, Java, Python, Ruby, JavaScript
 
 ほんのちょっとは触った：Haskell, D, R, Scala, Kotlin
 
 ### 経験のあるツール
-- デザイン : Zeplin, Prott
+- デザイン : Zeplin, Prott, Figma
 - コミュニケーション : Slack, ChatWork
 - ドキュメンテーション : esa, Confluence
-- タスク管理 : Trello, Redmine
+- タスク管理 : Trello, Redmine, Backlog
+
+# 職務経歴
+
+### 2015/10 - 現在: and factory株式会社
+
+- マンガアプリやゲーム攻略アプリのiOSを担当
+- わずかですが上記アプリのためのAPIサーバも作成
+- 採用プロセスに携わり、募集記事の作成協力や面接官を担当
+
+### 2014/4 - 2015/9: 某SIer
+
+- Exelをいじる日々
+- コーディングしたかった
