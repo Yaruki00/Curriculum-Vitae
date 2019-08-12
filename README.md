@@ -17,13 +17,14 @@
 ## iOSアプリ開発
 
 ### 言語
-ほとんどSwiftでやっています。始めたときのバージョンは2でした。Objective-Cも一応使えます。
+現在はSwift5でやっています。始めたときのバージョンは2でした。Objective-Cも一応使えます。
 
 ### アーキテクチャ
-最近はVIPERかClean Architectureをアレンジして使っています。  
+現在はMVVM+Clean Architectureをアレンジして使っています。
+VMにはUnioというフレームワークを使うことで、記法が個人によってぶれないようにしています。
 極力処理をモデル層に寄せる&モデルを細かく分割することで、特定のファイルが大きくならないよう気をつけています。  
-昔はMVPやMVCを使っていたこともあります。  
-MVVMやFlux系はあまりやったことがありません。
+昔はMVPやMVCやVIPERを使っていたこともあります。  
+Flux/Reduxはあまりやったことがありません。
 
 ### 通信
 AlamofireとRxSwiftを組み合わせて使っています。  
@@ -63,9 +64,9 @@ GoでスクレイピングやTwitter監視を行いました。
 ## その他
 
 ### 言語
-多少触ったことがある程度：C, C++, Java, Python, Ruby, JavaScript
+多少触ったことがある程度： C, C++, Java, Python, JavaScript
 
-ほんのちょっとは触った：Haskell, D, R, Scala, Kotlin
+ほんのちょっとは触った： Ruby, Haskell, D, R, Scala, Kotlin
 
 ### 経験のあるツール
 - デザイン : Zeplin, Prott, Figma
