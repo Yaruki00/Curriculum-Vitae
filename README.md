@@ -5,6 +5,7 @@
 |Name|川辺 裕太(かわべ ゆうた)|
 |Twitter|[@yaruki_00](https://twitter.com/yaruki_00)|
 |Qiita|[Yaruki00](http://qiita.com/Yaruki00)|
+|SpeakerDeck|[yaruki00](https://speakerdeck.com/yaruki00)|
 
 # スキル
 
